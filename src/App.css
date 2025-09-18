@@ -1,0 +1,90 @@
+#first{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+#first>input{
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+  outline: none;
+  border: none;
+  padding: 8px;
+}
+
+#first>button{
+  height: 35px;
+  width: fit-content;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#s1{
+  background: linear-gradient(red, black);
+  color: transparent;
+  background-clip: text;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+@keyframes rotate {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+#second{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  color: rgba(23, 24, 24, 0.806);
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 800;
+  color: red;
+  column-gap: 30px;
+}
+
+#third{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+#fourth{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: red;
+}
+
+#forecast{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
