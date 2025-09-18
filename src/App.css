@@ -80,6 +80,7 @@
   justify-content: space-around;
   align-items: center;
   color: red;
+  flex-direction: column;
 }
 
 #forecast{
